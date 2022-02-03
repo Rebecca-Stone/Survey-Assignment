@@ -1,0 +1,259 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+   commented out border for editing 
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  /* border: 0; */
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+html {
+  font-size: 62.5%;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  font-size: 1.6rem;
+  line-height: 1.5;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+/* border needs to be commented out after editing */
+* {
+  box-sizing: border-box;
+  /* border: 1px solid grey; */
+  max-width: 100%;
+}
+
+section {
+  padding: 5% 0;
+  width: 90%;
+  margin: 0 auto;
+}
+/* for background images */
+body {
+  background-image: url(undraw_doctor_kw-5-l.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* styles for the header */
+#top {
+  width: 54%;
+  margin-left: 22%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  background-color: rgba(222, 215, 236, 0.815);
+  border-radius: 10px;
+}
+h1 {
+  font-size: 4rem;
+}
+p {
+  font-size: 3rem;
+}
+
+/* these are the styles for the constant question .text */
+#text {
+  margin-bottom: 0%;
+  padding-bottom: 0%;
+  padding-left: 15%;
+  padding-top: 8%;
+}
+
+h3 {
+  font-size: 2.5rem;
+  padding-bottom: 0%;
+}
+
+/* these are the styles for the survey questions */
+
+#questions {
+  width: 20%;
+  padding: 0%;
+  margin-left: 40%;
+  margin-top: 2%;
+  background-color: rgba(222, 215, 236, 0.815);
+  border-radius: 10px;
+  font-size: 2.5rem;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+ul {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 2%;
+}
+li {
+  font-size: 2rem;
+  text-align: center;
+}
+
+/* Display Change Properties */
+.cough {
+  display: block;
+}
+
+.soreThroat {
+  display: none;
+}
+
+.runnyNose {
+  display: none;
+}
+
+.fever {
+  display: none;
+}
+
+.vomiting {
+  display: none;
+}
+
+.diarrehea {
+  display: none;
+}
+
+.end {
+  width: 20%;
+  margin-top: 8%;
+  margin-left: 40%;
+  text-align: center;
+  background-color: rgba(222, 215, 236, 0.815);
+  border-radius: 10px;
+  display: none;
+}
+
+.end #results {
+  text-align: left;
+  font-size: 2rem;
+  padding: 2.5%;
+}
+
+button {
+  border-radius: 10px;
+  font-size: 1.6rem;
+}
+
+button a {
+  text-decoration: none;
+  color: black;
+}
